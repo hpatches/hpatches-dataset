@@ -19,8 +19,7 @@ more significant deformations (h-hard).
 
 Note that each patch is `65x65` pixels.
 
-Code for reading the patches in python is provided on the hbench repository  
-[hbench](https://github.com/featw/hbench)
+Code for reading the patches in several languages is provided on the `code` folder.
 
 For more information contact:
 
