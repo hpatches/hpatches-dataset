@@ -1,15 +1,18 @@
-# hpatches
+# HPatches
 
-First release of the homography patches dataset. 
+This is the first release of the *HPatches* (Homography patches) dataset and benchmark for local descriptor matching. This dataset will be used as the basis for the descriptor matching challenge that will be presented in the
+[Local Features: State of the Art, Open Problems and Performance Evaluation](http://www.iis.ee.ic.ac.uk/ComputerVision/DescrWorkshop/index.html)
+workshop at ECCV 2016. There is a companion [*HBench*](https://github.com/featw/hbench) toolbox which implements the *HPatches* evaluation protocol and allows to produce the result files required to enter the challenge.
 
-Currently we are releasing only the training set for the ECCV-2016 workshop. 
-The test set with the evaluation methods will be released soon. 
+> **Note:** Currently we are releasing *only the development (Training) subset* of the data. The test set will be released a few week before the challenge at the ECCV 2016 workshop .
 
-To download the hpatches dataset (training data), download and untar the following file
+To download the HPatches dataset (training data), download and untar the following file:
 
-`wget www.iis.ee.ic.ac.uk/ComputerVision/DescrWorkshop/hpatches-train.tar.gz`
+* [HPatches training set](http://www.iis.ee.ic.ac.uk/ComputerVision/DescrWorkshop/hpatches-train.tar.gz) [1.5GB].
+* HPatches test set (coming soon).
 
-## Training set description
+## Dataset description
+
 * i_X: sequences with illumination changes
 * v_X: sequences with viewpoint changes
 
