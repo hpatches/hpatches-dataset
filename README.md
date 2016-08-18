@@ -30,4 +30,4 @@ For more information contact:
 
 * For information about relevant citations concerning the sequences
 that were not originally introduced in this dataset, please check the
-`refs.md`
+`references.txt`
