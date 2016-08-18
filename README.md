@@ -26,3 +26,8 @@ For more information contact:
 [Karel Lenc](mailto:karel@robots.ox.ac.uk)
 
 [Vassileios Balntas](mailto:v.balntas@imperial.ac.uk)
+
+
+* For information about relevant citations concerning the sequences
+that were not originally introduced in this dataset, please check the
+`refs.md`
