@@ -21,12 +21,8 @@ Note that each patch is `65x65` pixels.
 
 Code for reading the patches in several languages is provided on the `code` folder.
 
-For more information contact:
-
-[Karel Lenc](mailto:karel@robots.ox.ac.uk)
-
-[Vassileios Balntas](mailto:v.balntas@imperial.ac.uk)
-
+For more information contact
+[Karel Lenc](mailto:karel@robots.ox.ac.uk) or [Vassileios Balntas](mailto:v.balntas@imperial.ac.uk)
 
 * For information about relevant citations concerning the sequences
 that were not originally introduced in this dataset, please check the
