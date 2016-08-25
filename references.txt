@@ -119,7 +119,7 @@ i_zion - [AMOS]
 
 [AMOS] - N. Jacobs, N. Roman and R. Pless, Consistent Temporal Variations in Many Outdoor Scenes, CVPR 2007.
 [DTU] - H. Aanæs, A. Lindbjerg Dahl and K. Steenstrup Pedersen, Interesting Interest Points, IJCV 2012.
-[HAN] - K. Cordes and J. Ostermann, Increasing the Precision of Junction Shaped Features, MVA 2015.
+[HAN] -  K. Cordes, B. Rosenhahn, and J. Ostermann, Increasing the Accuracy of Feature Evaluation Benchmarks Using Differential Evolution, SDE IEEE, 2011.
 [OXF] - K Mikolajczyk and C Schmid,  A performance evaluation of local descriptors, PAMI 2005 
 [PHOS] - V. Vonikakis, D. Chrysostomou, R. Kouskouridas and A. Gasteratos, Improving the Robustness in Feature Detection by Local Contrast Enhancement, IST 2012.
 [ASIFT] - Y. Guoshen and J-M. Morel. ASIFT: An algorithm for fully affine invariant comparison, Image Processing Online 2011.
