@@ -53,14 +53,14 @@ For easy jitter, the median ellipse overlap with the original patches is ~0.85, 
 
 The following images show the reprojected easy/hard patches in the target image together with extracted patches.
 
-![Reprojected easy patches](img/images_easy.png)
+<center>![Reprojected easy patches](img/images_easy.png)</center>
 *Image 3: Visualization of the easy patches locations in the target images.*
 
-![Extracted easy patches](img/patches_easy.png)
+<center>![Extracted easy patches](img/patches_easy.png)</center>
 *Image 4: Extracted easy patches from the example sequence.*
 
-![Reprojected hard patches](img/images_hard.png)
+<center>![Reprojected hard patches](img/images_hard.png)</center>
 *Image 5: Visualization of the hard patches locations in the target images.*
 
-![Extracted hard patches](img/patches_hard.png)
+<center>![Extracted hard patches](img/patches_hard.png)</center>
 *Image 6: Extracted hard patches from the example sequence.*
