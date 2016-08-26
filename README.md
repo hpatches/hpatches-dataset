@@ -35,7 +35,7 @@ In training set, patches are ordered by their location. This means that `i`th pa
 Each image sequence contains a reference image and 5 target images with different illumination and/or different viewpoint for a planar scene. For all images we have the estimated ground truth homography `H` (stored in CSV files `H_ref_X` where `X=1..5`).
 
 ![Example sequence](img/images.png)
-*Image 1*: Example sequence. First image is the reference image followed by 5 images with a different viewpoint.
+*Image 1: Example sequence. First image is the reference image followed by 5 images with a different viewpoint.*
 
 Patches are sampled in the reference image using combination of local feature extractors (Hessian, Harris and DoG detector). Patch orinetation is estimated using a single major orientation from Lowe's method. No affine adaptation is used, therefore all patches are square regions in the reference image.
 
@@ -43,7 +43,8 @@ Patches are extracted from regions with a scale magnified by a factor of 5 compa
 
 In order to prevent multiple detections on the same location, only single feature is selected by random from a cluster of patches with an ellipse overlap higher than 50%. A subset of the detected patches with their measurement regions is shown in the following image:
 
-![Example detections](img/detections.png)
+<center>![Example detections](img/detections.png)</center>
+
 *Image 2: Example detections on the reference image. Patches locations are visualized as ellipses. The scale of the detected patches (orange) is magnified by factor 5 to obtain the patch measurement region (yellow).*
 
 In order to extract the patches from a target image, at first an affine jitter is applied. The goal of the affine jitter is to simulate the mistakes of local features detector.
@@ -53,14 +54,13 @@ For easy jitter, the median ellipse overlap with the original patches is ~0.85, 
 The following images show the reprojected easy/hard patches in the target image together with extracted patches.
 
 ![Reprojected easy patches](img/images_easy.png)
-*Image 3: Visualization of the **easy** patches locations in the target images.*
+*Image 3: Visualization of the easy patches locations in the target images.*
 
 ![Extracted easy patches](img/patches_easy.png)
-*Image 4: Extracted **easy** patches from the example sequence.*
+*Image 4: Extracted easy patches from the example sequence.*
 
 ![Reprojected hard patches](img/images_hard.png)
-*Image 5: Visualization of the **hard** patches locations in the target images.*
-
+*Image 5: Visualization of the hard patches locations in the target images.*
 
 ![Extracted hard patches](img/patches_hard.png)
-*Image 6: Extracted **hard** patches from the example sequence.*
+*Image 6: Extracted hard patches from the example sequence.*
