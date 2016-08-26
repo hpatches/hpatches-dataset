@@ -43,7 +43,7 @@ Patches are extracted from regions with a scale magnified by a factor of 5 compa
 
 In order to prevent multiple detections on the same location, only single feature is selected by random from a cluster of patches with an ellipse overlap higher than 50%. A subset of the detected patches with their measurement regions is shown in the following image:
 
-<center>![Example detections](img/detections.png)</center>
+![Example detections](img/detections.png)
 
 *Image 2: Example detections on the reference image. Patches locations are visualized as ellipses. The scale of the detected patches (orange) is magnified by factor 5 to obtain the patch measurement region (yellow).*
 
@@ -53,14 +53,18 @@ For easy jitter, the median ellipse overlap with the original patches is ~0.85, 
 
 The following images show the reprojected easy/hard patches in the target image together with extracted patches.
 
-<center>![Reprojected easy patches](img/images_easy.png)</center>
+![Reprojected easy patches](img/images_easy.png)
+
 *Image 3: Visualization of the easy patches locations in the target images.*
 
-<center>![Extracted easy patches](img/patches_easy.png)</center>
+![Extracted easy patches](img/patches_easy.png)
+
 *Image 4: Extracted easy patches from the example sequence.*
 
-<center>![Reprojected hard patches](img/images_hard.png)</center>
+![Reprojected hard patches](img/images_hard.png)
+
 *Image 5: Visualization of the hard patches locations in the target images.*
 
-<center>![Extracted hard patches](img/patches_hard.png)</center>
+![Extracted hard patches](img/patches_hard.png)
+
 *Image 6: Extracted hard patches from the example sequence.*
