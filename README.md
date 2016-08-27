@@ -1,14 +1,15 @@
-# hpatches: Homography-patches dataset
+# HPatches: Homography-patches dataset
 
-*HPatches* is a benchmark dataset for feature detectors and consists of image patches extracted from a large set of image sequences either planar or otherwise related by homography. The benchmark definition is part of the [*HBench*](../hbench/README.md) toolbox. For more information, please check the website for the
-[Local Features: State of the art, open problems and performance evaluation](http://www.iis.ee.ic.ac.uk/ComputerVision/DescrWorkshop/)
-workshop which will take place together with ECCV 2016.
+This is the first release of the *HPatches* (Homography patches) dataset and benchmark for local descriptor matching. This dataset will be used as the basis for the descriptor matching challenge that will be presented in the
+[Local Features: State of the Art, Open Problems and Performance Evaluation](http://www.iis.ee.ic.ac.uk/ComputerVision/DescrWorkshop/index.html)
+workshop at ECCV 2016. There is a companion [*HBench*](../hbench/README.md) toolbox which defines the benchmark and implements the *HPatches* evaluation protocol. This toolbox allows to produce the result files required to enter the challenge.
 
-Currently we are releasing only the training subset of *HPatches* for the challenge that will take place as part of the ECCV 2016 workshop. The test set with will be released soon.
+> **Note:** Currently we are releasing *only the development (Training) subset* of the data. The test set will be released a few week before the challenge at the ECCV 2016 workshop .
 
-To obtain the *HPatches* dataset (training data), download and untar the following file:
+To download the HPatches dataset (training data), download and untar the following file:
 
-`wget www.iis.ee.ic.ac.uk/ComputerVision/DescrWorkshop/hpatches-train.tar.gz`
+* [HPatches training set](http://www.iis.ee.ic.ac.uk/ComputerVision/DescrWorkshop/hpatches-train.tar.gz) [1.5GB].
+* HPatches test set (coming soon).
 
 Sample code for reading the patches in python is provided in the `code` folder. The benchmarking code is distributed as part of the *HBench* toolbox.
 
