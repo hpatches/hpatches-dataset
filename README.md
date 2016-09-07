@@ -2,7 +2,7 @@
 
 This is the first release of the *HPatches* (Homography patches) dataset and benchmark for local descriptor matching. This dataset will be used as the basis for the descriptor matching challenge that will be presented in the
 [Local Features: State of the Art, Open Problems and Performance Evaluation](http://www.iis.ee.ic.ac.uk/ComputerVision/DescrWorkshop/index.html)
-workshop at ECCV 2016. There is a companion [*HBench*](../hbench/README.md) toolbox which defines the benchmark and implements the *HPatches* evaluation protocol. This toolbox allows to produce the result files required to enter the challenge.
+workshop at ECCV 2016. There is a companion [*HBench*](https://github.com/featw/hbench/blob/master/README.md) toolbox which defines the benchmark and implements the *HPatches* evaluation protocol. This toolbox allows to produce the result files required to enter the challenge.
 
 > **Note:** Currently we are releasing *only the development (Training) subset* of the data. The test set will be released a few week before the challenge at the ECCV 2016 workshop .
 
