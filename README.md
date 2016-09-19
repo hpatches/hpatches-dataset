@@ -4,12 +4,10 @@ This is the first release of the *HPatches* (Homography patches) dataset and ben
 [Local Features: State of the Art, Open Problems and Performance Evaluation](http://www.iis.ee.ic.ac.uk/ComputerVision/DescrWorkshop/index.html)
 workshop at ECCV 2016. There is a companion [*HBench*](https://github.com/featw/hbench/blob/master/README.md) toolbox which defines the benchmark and implements the *HPatches* evaluation protocol. This toolbox allows to produce the result files required to enter the challenge.
 
-> **Note:** Currently we are releasing *only the development (Training) subset* of the data. The test set will be released a few week before the challenge at the ECCV 2016 workshop .
-
 To download the HPatches dataset (training data), download and untar the following file:
 
 * [HPatches training set](http://www.iis.ee.ic.ac.uk/ComputerVision/DescrWorkshop/hpatches-train.tar.gz) [1.5GB].
-* HPatches test set (coming soon).
+* [HPatches test set](http://www.robots.ox.ac.uk/~karel/blobs/hpatches-test.tar.gz) [1.1GB].
 
 Sample code for reading the patches in python is provided in the `code` folder. The benchmarking code is distributed as part of the *HBench* toolbox.
 
