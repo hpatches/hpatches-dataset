@@ -123,4 +123,4 @@ i_zion - [AMOS]
 [OXF] - K Mikolajczyk and C Schmid,  A performance evaluation of local descriptors, PAMI 2005 
 [PHOS] - V. Vonikakis, D. Chrysostomou, R. Kouskouridas and A. Gasteratos, Improving the Robustness in Feature Detection by Local Contrast Enhancement, IST 2012.
 [ASIFT] - Y. Guoshen and J-M. Morel. ASIFT: An algorithm for fully affine invariant comparison, Image Processing Online 2011.
-[] - First introduced in this dataset. 
+[] - First introduced in this dataset.
