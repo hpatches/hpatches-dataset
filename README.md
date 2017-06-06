@@ -125,7 +125,7 @@ research.
 ### References
 <a name="refs"></a>
 
-[1] *HPatches: A benchmark and evaluation of handcrafted and learned local descriptors*, Vassileios Balntas*, Karel Lenc*, Andrea Vedaldi and Krystian Mikolajczyk, CVPR 2017.
+[1] *HPatches: A benchmark and evaluation of handcrafted and learned local descriptors*, Vassileios Balntas*, Karel Lenc*, Andrea Vedaldi and Krystian Mikolajczyk, CVPR 2017. [arXiv pdf] (https://arxiv.org/pdf/1704.05939.pdf)
 *Authors contributed equally.
 
 ```
