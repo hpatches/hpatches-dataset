@@ -8,7 +8,7 @@ More details can be found on the relevant `CVPR 2017` publication
 
 The `HPatches` dataset was used as the basis for the local descriptor
 evaluation challenge that was presented in the
-[Local Features: State of the Art, Open Problems and Performance Evaluation](http://www.iis.ee.ic.ac.uk/ComputerVision/DescrWorkshop/index.html)
+[Local Features: State of the Art, Open Problems and Performance Evaluation](http://icvl.ee.ic.ac.uk/DescrWorkshop/index.html)
 workshop during ECCV 2016.
 
 There is a companion
@@ -22,7 +22,7 @@ descriptor evaluation purposes.
 If there is a need to manually get the `HPatches` dataset, download
 and untar the following file:
 
-* [HPatches](http://www.iis.ee.ic.ac.uk/~vbalnt/hpatches/hpatches-release.tar.gz) [4.2GB].
+* [HPatches](http://icvl.ee.ic.ac.uk/vbalnt/hpatches/hpatches-release.tar.gz) [4.2GB].
 
 Sample code for reading the patches in `python` and `matlab` is
 provided in the
@@ -113,7 +113,7 @@ In addition to the extracted patch-based dataset, we provide the full
 image sequences that were used, together with the corresponding
 homographies.
 
-* [HPatches full sequences](http://www.iis.ee.ic.ac.uk/~vbalnt/hpatches/hpatches-sequences-release.tar.gz) [1.3GB].
+* [HPatches full sequences](http://icvl.ee.ic.ac.uk/vbalnt/hpatches/hpatches-sequences-release.tar.gz) [1.3GB].
 
 For information about relevant citations concerning patches extracted
 from sequences that were not originally introduced in this dataset,
