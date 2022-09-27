@@ -22,7 +22,7 @@ descriptor evaluation purposes.
 If there is a need to manually get the `HPatches` dataset, download
 and untar the following file:
 
-* [HPatches](http://icvl.ee.ic.ac.uk/vbalnt/hpatches/hpatches-release.tar.gz) [4.2GB].
+* [HPatches](http://icvl.ee.ic.ac.uk/vbalnt/hpatches) [4.2GB].
 
 Sample code for reading the patches in `python` and `matlab` is
 provided in the
@@ -113,7 +113,7 @@ In addition to the extracted patch-based dataset, we provide the full
 image sequences that were used, together with the corresponding
 homographies.
 
-* [HPatches full sequences](http://icvl.ee.ic.ac.uk/vbalnt/hpatches/hpatches-sequences-release.tar.gz) [1.3GB].
+* [HPatches full sequences](http://icvl.ee.ic.ac.uk/vbalnt/hpatches) [1.3GB].
 
 For information about relevant citations concerning patches extracted
 from sequences that were not originally introduced in this dataset,
